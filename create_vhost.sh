@@ -203,5 +203,5 @@ ln -s $NGINX_AVAILABLE_VHOST_DIR/$VHOST_NAME.conf $NGINX_ENABLED_VHOST_DIR/$VHOS
 # Reload Apache2 & Nginx
 echo "All done, reloading Apache2 & Nginx"
 
-#service apache2 reload
-#service nginx reload
+service apache2 reload
+service nginx reload
